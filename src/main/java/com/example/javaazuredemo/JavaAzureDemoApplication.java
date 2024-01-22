@@ -11,7 +11,7 @@ public class JavaAzureDemoApplication {
 
     @GetMapping("/message")
     public String message(){
-        return "Congrats! Your app is deployed successfully in Azure!";
+        return "Congrats! Your app is deployed successfully in Azure! Application is redeployed";
     }
 
     public static void main(String[] args) {
